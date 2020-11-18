@@ -16,4 +16,4 @@ def animals():
     elif request.method == "DELETE":
           return Response("Deleted 'Grizzly bear' successfully ", mimetype="text/html", status=204)
     else:
-          return Response("Error has occured ", mimetype="text/html", status=500)
+          return Response("Error has occured! ", mimetype="text/html", status=500)
